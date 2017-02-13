@@ -1,6 +1,6 @@
 call plug#begin()
 Plug '2072/PHP-Indenting-for-VIm'
-Plug 'phpvim/phpfold.vim'
+"Plug 'phpvim/phpfold.vim'
 Plug 'php-vim/phpcd.vim'
 Plug 'majutsushi/tagbar'
 Plug 'hynek/vim-python-pep8-indent'
@@ -36,6 +36,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'junegunn/gv.vim'
 Plug 'vim-scripts/vimgdb'
 Plug 'wsdjeg/vim-chat'
+Plug 'scrooloose/nerdcommenter'
 
 " Golang {{{
 Plug 'fatih/vim-go'
