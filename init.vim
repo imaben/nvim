@@ -1,7 +1,7 @@
 call plug#begin()
 Plug '2072/PHP-Indenting-for-VIm'
 "Plug 'phpvim/phpfold.vim'
-Plug 'php-vim/phpcd.vim'
+Plug 'imaben/phpcd.vim'
 Plug 'majutsushi/tagbar'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'Valloric/YouCompleteMe'
