@@ -136,6 +136,13 @@ autocmd bufenter * if (winnr("$") == 1 && &filetype == 'nerdtree') | q | endif
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 " let g:airline_theme='luna'
+hi Normal             ctermbg=NONE
+hi Statement          ctermbg=NONE
+hi Title              ctermbg=NONE
+hi Todo               ctermbg=NONE
+hi Underlined         ctermbg=NONE
+hi ErrorMsg           ctermbg=NONE
+hi LineNr             ctermbg=NONE
 
 " PHPCD
 autocmd CompleteDone * pclose " 补全完成后自动关闭预览窗口
